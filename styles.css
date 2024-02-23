@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+.b-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.b-galley__container {
+  width: 30%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.b-galley__container img {
+  width: 100%;
+}
+
+.b-gallery h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #9e3501;
+}
+.b-gallery h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.b-gallery p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #707073;
+}
+.b-gallery span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
